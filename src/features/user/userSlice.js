@@ -22,9 +22,7 @@ export const fetchAddress = createAsyncThunk(
     const address = `${addressObj?.locality}, ${addressObj?.city} ${addressObj?.postcode}, ${addressObj?.countryName}`;
 
     // 3) Then we return an object with the data that we are interested in
-
-    //payload of the FULFILLED state
-    return { position, address };
+    return { position, address }; // <- payload of the FULFILLED state
   },
 );
 
