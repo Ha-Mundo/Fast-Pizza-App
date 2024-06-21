@@ -81,7 +81,7 @@ function CreateOrder() {
               defaultValue={address}
               required
             />
-            {addressStatus === 'errors' && (
+            {addressStatus === 'error' && (
               <p className="mt-2 rounded-md bg-red-100 p-2 text-xs text-red-700">
                 {errorAddress}
               </p>
