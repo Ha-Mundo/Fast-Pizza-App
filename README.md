@@ -47,9 +47,9 @@ To set up the fast-react-pizza project locally, follow the instructions below.
 
 1. Clone the repository:
 
-   <!-- ```bash
-   git clone https:// your github repo address
-   ``` -->
+   ```bash
+   git clone https://github.com/Ha-Mundo/Fast-Pizza-App.git
+   ```
 
 2. Install the dependencies:
 
@@ -69,4 +69,4 @@ To set up the fast-react-pizza project locally, follow the instructions below.
 
 ## 🚀Live Demo
 
-<!-- [fast-react-pizza](https://your url) -->
+### https://fast-pizz-app.vercel.app/
