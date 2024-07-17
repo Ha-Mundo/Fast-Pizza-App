@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 
-function UserName() {
+function Username() {
   const username = useSelector((state) => state.user.username);
 
   if (!username) return null;
@@ -10,4 +10,4 @@ function UserName() {
   );
 }
 
-export default UserName;
+export default Username;
